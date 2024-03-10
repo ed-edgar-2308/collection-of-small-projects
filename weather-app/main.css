@@ -1,0 +1,107 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body.hot {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url(hot.png) no-repeat center/cover;
+}
+
+body.hot #weather {
+  background-image: url(hot.png);
+}
+
+body.cold {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url(cold.png) no-repeat center/cover;
+}
+
+body.cold #weather {
+  background-image: url(cold.png);
+}
+
+#weather {
+  background: no-repeat center/cover;
+  text-align: center;
+  padding: 3rem 2rem;
+  min-width: 35rem;
+  height: 60rem;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+#weather input {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1rem 2rem;
+  font-size: 1.9rem;
+  width: 100%;
+  margin-bottom: 4rem;
+  border: none;
+  outline: none;
+  border-radius: 0 15px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+
+#weather input:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px 0;
+}
+
+.weather__content {
+  color: white;
+}
+
+.weather__content .name {
+  font-size: 3.5rem;
+  white-space: nowrap;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.weather__content .time {
+  font-size: 1.5rem;
+  margin: 0.6rem 0;
+}
+
+.weather__content .temperature {
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  padding: 2rem;
+  font-size: 6.5rem;
+  font-weight: 800;
+  margin: 2rem 0 3rem;
+  border-radius: 15px;
+  box-shadow: 2px 2px 0 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.weather__content .short-desc {
+  font-size: 4rem;
+  font-weight: 600;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.weather__content .more-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.weather__content .more-desc > div {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather__content .more-desc > div span {
+  margin-top: 1.5rem;
+}
