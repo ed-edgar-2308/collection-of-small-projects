@@ -13,7 +13,7 @@ body {
   margin: auto;
 }
 
-.image {
+.wrapper__image {
   width: 22%;
   height: 20rem;
   margin: 1rem;
@@ -30,7 +30,7 @@ img {
   transition: 0.25s;
 }
 
-.image:hover img {
+.wrapper__image:hover img {
   transform: scale(1.2);
 }
 
@@ -56,13 +56,13 @@ img {
   pointer-events: auto;
 }
 
-.gallery-inner {
+.gallery__inner {
   width: 70%;
   height: 70%;
   margin: auto;
 }
 
-.control {
+.gallery__control {
   color: rgba(255, 255, 255, 0.8);
   font-size: 5rem;
   position: absolute;

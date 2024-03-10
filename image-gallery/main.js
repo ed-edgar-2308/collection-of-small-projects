@@ -4,7 +4,7 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 let currentIndex = 0;
-const images = $$(".wrapper .image img");
+const images = $$(".wrapper__image img");
 
 images.forEach((image) => {
   image.onclick = () => {
@@ -17,11 +17,11 @@ $(".gallery .close").onclick = () => {
   $(".gallery").classList.remove("show");
 };
 
-$(".control.next").onclick = () => {
+$(".gallery__control.next").onclick = () => {
   showGallery(images[++currentIndex]);
 };
 
-$(".control.prev").onclick = () => {
+$(".gallery__control.prev").onclick = () => {
   showGallery(images[--currentIndex]);
 };
 
@@ -37,16 +37,16 @@ document.onkeydown = (e) => {
 
 function showGallery(image) {
   $(".gallery").classList.add("show");
-  $(".gallery-inner img").src = image.src;
+  $(".gallery__inner img").src = image.src;
 
   if (image == images[0]) {
-    $(".control.prev").classList.add("hide");
+    $(".gallery__control.prev").classList.add("hide");
   } else {
-    $(".control.prev").classList.remove("hide");
+    $(".gallery__control.prev").classList.remove("hide");
   }
   if (image == images[images.length - 1]) {
-    $(".control.next").classList.add("hide");
+    $(".gallery__control.next").classList.add("hide");
   } else {
-    $(".control.next").classList.remove("hide");
+    $(".gallery__control.next").classList.remove("hide");
   }
 }
