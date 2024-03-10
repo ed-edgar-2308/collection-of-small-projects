@@ -1,12 +1,20 @@
+"use strict";
+
 const $ = document.querySelector.bind(document);
 
-$(".open-modal-btn").addEventListener("click", toggleModal);
-$(".modal__header i").addEventListener("click", toggleModal);
-$(".modal__footer button").addEventListener("click", toggleModal);
+$(".open-modal-btn").onclick = toggleModal;
+$(".modal__header i").onclick = toggleModal;
+$(".modal__footer button").onclick = toggleModal;
 
-$(".modal").addEventListener("click", (e) => {
+$(".modal").onclick = (e) => {
   if (e.target == e.currentTarget) toggleModal();
-});
+};
+
+document.onkeydown = (e) => {
+  if (e.key == "Escape" && !$(".modal").classList.contains("hide")) {
+    toggleModal();
+  }
+};
 
 function toggleModal() {
   $(".modal").classList.toggle("hide");
