@@ -1,8 +1,5 @@
 "use strict";
 
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
-
 let currentIndex = 0;
 const images = $$(".wrapper__image img");
 

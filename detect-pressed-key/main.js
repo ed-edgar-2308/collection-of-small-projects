@@ -1,8 +1,5 @@
 "use strict";
 
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
-
 document.onkeydown = (e) => {
   $(".box__result").innerText = e.which;
   $(".card.key p:last-child").innerText = e.key == " " ? "Space" : e.key;

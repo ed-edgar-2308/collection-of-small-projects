@@ -1,7 +1,5 @@
 "use strict";
 
-const $ = document.querySelector.bind(document);
-
 $(".open-modal-btn").onclick = toggleModal;
 $(".modal__header i").onclick = toggleModal;
 $(".modal__footer button").onclick = toggleModal;
