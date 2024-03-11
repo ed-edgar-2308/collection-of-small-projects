@@ -35,8 +35,7 @@ function handleProgress() {
 
   $(".player__time").innerHTML = `
 		${formatTime(video.currentTime)}/ ${formatTime(video.duration)}
-		`;
-  console.log("🚀 ~ handleProgress ~ video.currentTime:", video.currentTime);
+	`;
 }
 
 function formatTime(time) {
