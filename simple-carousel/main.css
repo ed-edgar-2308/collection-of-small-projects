@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(145deg, #413579, #632a4c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.wrapper {
+  padding: 2rem;
+  margin: 0 10rem;
+  border: 2px solid #dadada;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  overflow-x: auto;
+  overflow: hidden;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.box {
+  background-color: #7043a5;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 1rem;
+}
