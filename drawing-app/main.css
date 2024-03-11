@@ -1,0 +1,35 @@
+body {
+  background-color: #fff;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.tools {
+  background-color: steelblue;
+  display: flex;
+  align-items: center;
+}
+
+.tools > * {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  height: 4rem;
+  width: 4rem;
+  margin: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#save {
+  font-size: 1.6rem;
+  margin-left: auto;
+  text-decoration: none;
+}

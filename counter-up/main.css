@@ -1,0 +1,25 @@
+body {
+  background-color: #8a66b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.counter {
+  background-color: #6b38b6;
+  color: white;
+  text-align: center;
+  padding: 2rem 4rem;
+  font-size: 4rem;
+  margin: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.counter p {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}

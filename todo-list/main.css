@@ -1,9 +1,6 @@
-html {
-  font-family: sans-serif;
-}
-
 body {
   background: linear-gradient(to right, #ffe000, #799f0c);
+  font-family: sans-serif;
   min-height: 100vh;
 }
 

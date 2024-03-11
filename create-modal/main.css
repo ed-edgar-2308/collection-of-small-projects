@@ -2,10 +2,6 @@
   --pink-color: #e26e70;
 }
 
-html {
-  font-family: sans-serif;
-}
-
 body {
   background: linear-gradient(
     45deg,
@@ -13,6 +9,7 @@ body {
     rgb(200, 80, 192) 50%,
     rgb(255, 204, 112) 100%
   );
+  font-family: sans-serif;
   height: 100vh;
 }
 

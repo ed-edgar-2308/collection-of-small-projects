@@ -1,0 +1,40 @@
+body {
+  background-color: #060802;
+  font-family: monospace;
+  height: 100vh;
+}
+
+.text-typing {
+  margin: 20rem auto;
+}
+
+.text-typing p {
+  color: #96ee1c;
+  font-size: 7rem;
+  font-weight: 700;
+  white-space: nowrap;
+  text-shadow: 0 0 100px #96ee1c;
+  overflow: hidden;
+  animation: typing 10s steps(30) infinite, blink 1s infinite;
+}
+
+@keyframes typing {
+  0%,
+  100% {
+    width: 0%;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 10px solid transparent;
+  }
+  50% {
+    border-right: 10px solid #96ee1c;
+  }
+}

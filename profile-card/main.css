@@ -2,15 +2,12 @@
   --pink-color: #f2726a;
 }
 
-html {
-  background: linear-gradient(45deg, #00853e, #50c878);
-  font-family: "Poppins", sans-serif;
-}
-
 body {
+  background: linear-gradient(45deg, #00853e, #50c878);
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   height: 100vh;
 }
 
