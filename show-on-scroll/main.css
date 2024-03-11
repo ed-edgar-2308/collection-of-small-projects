@@ -1,0 +1,98 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.left-to-right {
+  transform: translateX(-150%);
+  transition: 0.7s ease-in-out;
+}
+
+.left-to-right.start {
+  transform: translateX(0);
+}
+
+.right-to-left {
+  transform: translateX(150%);
+  transition: 0.7s ease-in-out;
+}
+
+.right-to-left.start {
+  transform: translateX(0);
+}
+
+.zoom {
+  transform: scale(0);
+  transition: 0.5s ease-in-out;
+}
+
+.zoom.start {
+  transform: unset;
+}
+
+#home {
+  background-image: linear-gradient(to right, #4daf54, #3d8880);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+}
+
+#home h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+#home p {
+  font-size: 2rem;
+  width: 70rem;
+  transition-delay: 0.2s;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: #242628;
+  color: white;
+  padding: 2rem;
+  width: 50rem;
+  margin: 0 2rem;
+  border-radius: 10px;
+}
+
+.box h2 {
+  margin-bottom: 1.5rem;
+}
+
+#team {
+  background: linear-gradient(180deg, #017c2c 50%, #fff 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#team .person {
+  background-color: #fff;
+  padding: 2rem;
+  width: 20rem;
+  margin: 0 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2e363a;
+}
+
+.person h3 {
+  color: #017c2c;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}

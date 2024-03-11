@@ -1,0 +1,65 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #dadada;
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  height: 80%;
+  width: 70%;
+  margin: 5rem auto;
+  box-shadow: 0 0 10px #bbb;
+}
+
+.main {
+  height: 85%;
+  position: relative;
+}
+
+.control {
+  color: white;
+  font-size: 8rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.prev {
+  left: -1rem;
+}
+
+.next {
+  right: -1rem;
+}
+
+.img-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.list-img {
+  display: flex;
+}
+
+.list-img div {
+  background-color: #bbb;
+  padding: 0.5rem;
+  flex: 1;
+  cursor: pointer;
+}
+
+.list-img div.active {
+  background-color: rgb(220, 86, 86);
+}

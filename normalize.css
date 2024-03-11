@@ -45,7 +45,7 @@ ul {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 abbr[title] {
