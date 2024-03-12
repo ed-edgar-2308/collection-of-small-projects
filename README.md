@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1>📖Collection of simple projects written with basic HTML/CSS and JavaScript</h>
+  <h1>📖 Collection of simple projects written with basic HTML/CSS and JavaScript</h>
 </div>
 
 This repository contains over 48 small-scale projects utilizing HTML, CSS, and JavaScript. Each project serves as a practical demonstration of fundamental web development techniques.
