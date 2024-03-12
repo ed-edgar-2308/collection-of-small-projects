@@ -40,7 +40,7 @@ If you find this repository helpful, please show your support by giving this rep
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Get ready to supercharge your coding journey! I've put my own spin on some amazing projects from [Brad Traversy Media](https://bradtraversy/50projects50days) that have helped me immensely. And I know they'll do the same for you, as long as you stay dedicated. Trust me, these projects are game-changers.
+Get ready to supercharge your coding journey! I've put my own spin on some amazing projects from [Brad Traversy](https://github.com/bradtraversy/50projects50days) that have helped me immensely. And I know they'll do the same for you, as long as you stay dedicated. Trust me, these projects are game-changers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
