@@ -16,8 +16,6 @@ This repository contains over 48 small-scale projects utilizing HTML, CSS, and J
 - Twitter: [Edgar](https://twitter.com/)
 - LinkedIn: [Edgar](https://www.linkedin.com/in/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
