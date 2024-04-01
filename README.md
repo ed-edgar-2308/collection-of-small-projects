@@ -10,11 +10,11 @@ This repository contains over 48 small-scale projects utilizing HTML, CSS, and J
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Ralph**
+👤 **Edgar**
 
-- GitHub: [ralph2308s](https://github.com/ralph2308s)
-- Twitter: [ralph2308s](https://twitter.com/ralph2308s)
-- LinkedIn: [ralph2038s](https://www.linkedin.com/in/ralph2038s/)
+- GitHub: [Edgar](https://github.com/ed-edgar-2308)
+- Twitter: [Edgar](https://twitter.com/)
+- LinkedIn: [Edgar](https://www.linkedin.com/in/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
